@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var a = Number(prompt('number'))
+        if (a<100 ||a>999){
+            alert('输入错误')
+        }else{
+            h = parseInt(a/100)
+            document.write(h)
+            t = parseInt(a/10) % 10
+            document.write(t)
+            c = a%10
+            document.write(c)
+            if (h**3+t**3+c**3==a){
+                document.write('是水仙花')
+            }
+            else {
+                document.write('not shuixian')
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var phone = prompt('请输入手机号')
+        if (phone.length==11){
+            if (Number(phone) instanceof Number){
+                alert('必须是数字')
+            }else{
+                alert('号码输入正确')
+            }
+        }
+        else{
+            alert('请输入11位号码')
+        }
+    </script>
+</body>
+</html>
